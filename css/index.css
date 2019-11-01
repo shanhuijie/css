@@ -17,7 +17,7 @@
   .grid-content {
     border-radius: 12px;
     min-height: 50px;
-    width: 75%;
+    width: 80%;
     margin-left: 10%;
     margin-top: 5px;
     text-align: center;
@@ -28,11 +28,11 @@
      color: aliceblue;
  }
  .blur {
-    filter: blur(5px);
+    filter: blur(8px);
   }
 
   .grayscale {
-    filter: grayscale(60%);
+    filter: grayscale(20%);
   }
   caption {
     font-family: 'Rock Salt', cursive;
@@ -67,5 +67,9 @@
   .img-pu{
     background-image: url("../img/see.jpg");
   }
+  img {
+  height: 80%;
+  width: 80%;
+}
 
 
