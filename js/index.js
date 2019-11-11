@@ -1,6 +1,7 @@
-var app = new Vue({
-    el: '.full-content-bottom-sp',
-    data: {
-      message: 'Hello Vue!'
+new Vue({
+    el: '#app',
+    data: function() {
+      return { visible: false }
     }
   })
+

@@ -2,6 +2,35 @@ body {
 margin:0;   
 padding:0;   
 } 
+.el-header, .el-footer {
+  text-align: center;
+  line-height: 60px;
+}
+
+.el-aside {
+  
+  text-align: center;
+  line-height: 200px;
+}
+
+.el-main {
+  
+  text-align: center;
+  line-height: 180px;
+}
+
+body > .el-container {
+  margin-bottom: 40px;
+}
+
+.el-container:nth-child(5) .el-aside,
+.el-container:nth-child(6) .el-aside {
+  line-height: 260px;
+}
+
+.el-container:nth-child(7) .el-aside {
+  line-height: 320px;
+}
 .el-container{
   height:100%;
   padding:0;
@@ -107,7 +136,11 @@ img {
   border-radius: 12px;
   margin-left: 40.5%;
   background-color: rgb(115, 231, 252);
-  width: 27%;
+  width: 40%;
+  margin-top: 25px;
+  margin-left: 30%;
+  padding-right: 5%;
+  text-align: right;
 }
 .pop-grid-content {
   border-radius: 12px;

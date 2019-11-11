@@ -9,6 +9,7 @@
   
 </head>
 <body>
+    <form action="" method="POST"   >
         <div id="app">
                 <el-container>
                         <el-header></el-header>
@@ -16,13 +17,15 @@
                           <el-aside width="200px"></el-aside>
                           <el-container>
                             <el-main><div class="grid-content bg-purple-dark">
-                            
-                                    <!-- <span id="top-font">北方</span>  </br>
-                                    <span id="top-font">冬夜的拂晓</span>  </br>
-                                    <span id="top-font">早来的西风</span>  </br>
-                                    <span id="top-font">和你绵长的余光</span>  </br> -->
+                                <h3>登录</h3>
                                 </div></el-main>
-                            <el-footer></el-footer>
+                            <el-footer><div class="full-content-bottom">
+                                <div class="full-content-bottom-sp">
+                                    UserName:<input type="text" name="username"></br>
+                                    Password:<input type="password" name="password"></br>
+                                    <input type="submit" value="submit">
+                                </div>
+                            </div></el-footer>
                           </el-container>
                         </el-container>
                       </el-container>
@@ -31,11 +34,7 @@
                         <el-aside width="200px"></el-aside>
                         <el-container>
                           <el-header></el-header>
-                          <el-main><div class="full-content-bottom">
-                                <div class="full-content-bottom-sp">
-                                    <h1>srcoll-down</h1>
-                                </div>
-                            </div></el-main>
+                          <el-main></el-main>
                         </el-container>
                       </el-container>
                       
@@ -43,13 +42,11 @@
                         <el-aside width="200px"></el-aside>
                         <el-container>
                           <el-header></el-header>
-                          <el-main><div class="pop-grid-content bg-purple"><span id="top-font">灰度</span> <img src="css/img/love.jpg" alt="" class="grayscale"></div>
-                            <div class="pop-grid-content bg-purple"><span id="top-font">模糊</span> <img src="css/img/love.jpg" alt="" class="blur"></div></el-main>
-                          <el-footer></el-footer>
+                          <el-main></el-footer>
                         </el-container>
                       </el-container>
               </div>
-  
+            </form>
 </body>
    <!-- import Vue before Element -->
    <script src="https://unpkg.com/vue/dist/vue.js"></script>
