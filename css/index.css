@@ -148,10 +148,27 @@ img {
   width: 80%;
   margin-left: 10%;
   margin-top: 8%;
-  box-shadow: 5px 5px 6px rgba(1, 2, 3, 0.63);
+  box-shadow: 5px 5px 6px rgba(216, 14, 189, 0.63);
   padding-top:20px;
   height: 280px;
 }
+.el-header {
+  background-color: #B3C0D1;
+  color: #333;
+  line-height: 60px;
+  padding-right: 8%;
+}
+.el-container {
+  width: 75%;
+  
+}
+.el-aside {
+  color: #333;
+}
+.el-main {
+  line-height: 0px;
+}
+
 
 
 
