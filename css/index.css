@@ -2,6 +2,10 @@ body {
 margin:0;   
 padding:0;   
 } 
+#canvas { 
+  width: 900px;
+  height: 90px;
+}
 .el-header, .el-footer {
   text-align: center;
   line-height: 60px;
