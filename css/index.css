@@ -1,6 +1,7 @@
 body {   
 margin:0;   
 padding:0;   
+background-color: #f6f6f6;
 } 
 #canvas { 
   width: 900px;
@@ -165,6 +166,26 @@ img {
 .el-main {
   line-height: 0px;
 }
+.e-img>img{
+  margin-left: 11%;
+  margin-top: 11%;
+  height: 45%;
+  width:  45%;
+  -webkit-animation:run 3s linear 0.5s infinite; 
+}
+@keyframes run{     
+    from{     
+        -webkit-transform:rotate(360deg);     
+    }     
+    to{     
+        -webkit-transform:rotate(0deg);     
+    }     
+}
+.e-img>h3{
+  margin-left: 10%;
+  margin-top: 7%;
+}
+
 
 
 
