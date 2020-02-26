@@ -1,7 +1,8 @@
 body {   
 margin:0;   
 padding:0;   
-background-color: #f6f6f6;
+
+background-image: url("../img/bg2.gif")
 } 
 #canvas { 
   width: 900px;
@@ -171,14 +172,14 @@ img {
   margin-top: 11%;
   height: 45%;
   width:  45%;
-  -webkit-animation:run 3s linear 0.5s infinite; 
+  -webkit-animation:run 1.8s linear 0.8s infinite; 
 }
 @keyframes run{     
     from{     
-        -webkit-transform:rotate(360deg);     
+        -webkit-transform:rotate(0deg);     
     }     
     to{     
-        -webkit-transform:rotate(0deg);     
+        -webkit-transform:rotate(360deg);     
     }     
 }
 .e-img>h3{
