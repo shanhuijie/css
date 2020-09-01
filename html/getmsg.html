@@ -42,21 +42,14 @@ You can change the message and send multiple times.
         var ws;
         
         ws = new WebSocket("ws://127.0.0.1:1997/ws");
-        ws.onopen
+        ws.onopen = function (evt) {
+            console.log("Connection open ...");
+            token = document.getElementById("token").value;
+                console.log(token)
+                ws.send(token);
+        };
         console.log(ws)
-        if(ws.readyState == 1){
-                token = document.getElementById("token").value;
-                while(true){
-                    ws.send(token);
-                    ws.onmessage = function(evt) {
-                        console.log(evt)
-                                print("RESPONSE: " + evt.data);
-                            };
-                    sleep(1)
-                    
-                }
-                
-        }
+    
         
             
         
@@ -66,13 +59,13 @@ You can change the message and send multiple times.
     
         
     
-        // document.getElementById("close").onclick = function(evt) {
-        //     if (!ws) {
-        //         return false;
-        //     }
-        //     console.log(ws.close())
-        //     console.log(evt)
-        //     ws.close();
-        //     return false;
-        // };
+        document.getElementById("close").onclick = function(evt) {
+            if (!ws) {
+                return false;
+            }
+            console.log(ws.close())
+            console.log(evt)
+            ws.close();
+            return false;
+        };
     </script>
